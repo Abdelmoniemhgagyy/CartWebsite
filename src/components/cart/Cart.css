@@ -1,0 +1,33 @@
+
+.total-cart {
+    position: fixed;
+    bottom: 0;
+    left: 0%;
+    width: 100%;
+    font-size: 2rem;
+    padding: 5px 20px;
+    
+    
+    }
+
+    .cart-info{
+        color: var(--secondary-color);
+    }
+
+button[aria-label="delete"]{
+    position: absolute;
+    right: 4px;
+    top: 65px;
+    color: var(--text-color);
+    ;&:hover{
+        color: red;
+    }
+    
+
+}
+[id="delete"]:hover{
+    color: red;
+}
+button[className='delete-button']{
+    border: 1px solid red ;
+}

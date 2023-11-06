@@ -1,0 +1,68 @@
+:root{
+        --main-color:#fff;
+        --secondary-color:#000
+}
+
+ul {
+  list-style: none;
+  
+}
+a{
+  text-decoration:none;
+}
+.App{
+
+}
+.navbar{
+  display:flex;
+  margin: 0px auto ;
+  background-color: var(--secondary-color);
+  color: var(--main-color);
+  padding: 10px;
+  position: relative;
+
+}
+.logo{
+  width: 25px;
+}
+.navbar li {
+  margin:10px 20px;
+}
+@media(max-width:720px){
+  .navbar li {
+    margin: 10px 2px;
+}
+}
+.navbar li a {
+  color: var(--main-color);
+  display: flex;
+
+}
+.navbar li a span {
+  margin-left: 5px;
+  margin-top: 2px;
+  font-weight: 600;
+}
+.navbar li .bi-cart{
+  position: absolute;
+  right: 60px;
+  top:22px;
+}
+.navbar li .bi-cart:hover{
+    transform:scale(1.1)
+}
+.cart-number {
+  position: absolute;
+  top: -7px;
+  right: -11px;
+  width: 14px;
+  height: 14px;
+  font-size: 11px;
+  border-radius: 50%;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+

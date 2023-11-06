@@ -1,0 +1,22 @@
+.dark {
+  --main-color:#000;
+  --secondary-color:#fff;
+  --background-color:#000000;
+  --text-color:#ffffff;
+}
+body{
+  --background-color:#fff;
+  --text-color:#000;
+}
+.main-container-mood{
+  position: absolute;
+  right: 25px;
+  top: 21px;
+  z-index: 999;
+  transition:.3s;
+  cursor: pointer;
+}
+.main-container-mood i {
+  color: var(--main-color);
+  margin-left: 15px;
+}
